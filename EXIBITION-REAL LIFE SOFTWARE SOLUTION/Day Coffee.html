@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY COFFEE</title>
+    <link rel="stylesheet" href="stylee.css">
+	<script src="scripte.js"></script>
+    <!-- Google Fonts Links For Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a class="logo" href="#">Day Coffee<span>.</span></a>
+        <ul class="menu-links">
+          <span id="close-menu-btn" class="material-symbols-outlined">close</span>
+          <li><a href="#hero-section">Home</a></li>
+          <li><a href="#our-expert-section">Our Experts</a></li>
+          <li><a href="#our-menu-section">Our Menu</a></li>
+          <li><a href="#add-on-section">Add-on</a></li>
+          <li><a href="#pickup-section">Pick-up Order</a></li>
+        </ul>
+        <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
+      </nav>
+    </header>
+
+    <section class="hero-section">
+      <div class="content">
+        <h2>Start Your Day With Fresh Coffee</h2>
+        <p>
+          Coffee is a popular and beloved beverage enjoyed by 
+          people around the world.Awaken your senses with a steaming cup of liquid motivation.
+        </p>
+        <button class="scroll-to-pickup-btn" onclick="scrollToPickupSection()">Pickup Order Now</button>
+      </div>
+    </section>
+
+    <section id="our-expert-section">
+	<h1>Our Experts<br><br><br></h1>
+     <div class="expert-container" id="expertContainer">
+        <!-- Expert 1 -->
+        <div class="expert-card">
+            <img src="anisha.jpg" alt="Expert 1 Photo" class="expert-photo">
+            <div class="expert-details">
+                <h2>Anisha Pandey</h2>
+                <p>5+ years of experience</p>
+            </div>
+        </div>
+	<!-- Expert 3 -->
+        <div class="expert-card">
+            <img src="anandita.jpg" alt="Expert 2 Photo" class="expert-photo">
+            <div class="expert-details">
+                <h2>Anandita Kumari</h2>
+                <p>9+ years of experience</p>
+            </div>
+        </div>
+        <!-- Expert 3 -->
+        <div class="expert-card">
+            <img src="aniket.jpg" alt="Expert 2 Photo" class="expert-photo">
+            <div class="expert-details">
+                <h2>Aniket Pandey</h2>
+                <p>8+ years of experience</p>
+            </div>
+        </div>
+
+        <!-- Expert 4 -->
+        <div class="expert-card">
+            <img src="amit.jpg" alt="Expert 3 Photo" class="expert-photo">
+            <div class="expert-details">
+                <h2>Amit Shrivastav</h2>
+                <p>7+ years of experience</p>
+            </div>
+        </div>
+
+    </div>
+
+	</section>
+
+	<section id="our-menu-section">
+	<h1>Our Menu<br><br></h1>
+	<div class="menu-container" id="menuContainer">
+        <!-- Coffee Item 1 -->
+        <div class="coffee-card">
+            <img src="Cappuccino.jpg" alt="Coffee 1" class="coffee-image">
+            <h3 class="coffee-name">Cappuccino</h3>
+            <p class="coffee-price">&#8377;150</p>
+        </div>
+
+        <!-- Coffee Item 2 -->
+        <div class="coffee-card">
+            <img src="Expresso.jpg" alt="Coffee 2" class="coffee-image">
+            <h3 class="coffee-name">Espresso</h3>
+            <p class="coffee-price">&#8377;120</p>
+        </div>
+
+        <!-- Coffee Item 3 -->
+        <div class="coffee-card">
+            <img src="Latte.jpg" alt="Coffee 3" class="coffee-image">
+            <h3 class="coffee-name">Latte</h3>
+            <p class="coffee-price">&#8377;180</p>
+        </div>
+	
+        <!-- Coffee Item 4 -->
+        <div class="coffee-card">
+            <img src="Mocha.jpg" alt="Coffee 4" class="coffee-image">
+            <h3 class="coffee-name">Mocha</h3>
+            <p class="coffee-price">&#8377;160</p>
+        </div>
+
+        <!-- Coffee Item 5 -->
+        <div class="coffee-card">
+            <img src="Americano.jpg" alt="Coffee 5" class="coffee-image">
+            <h3 class="coffee-name">Americano</h3>
+            <p class="coffee-price">&#8377;140</p>
+        </div>
+
+        <!-- Coffee Item 6 -->
+        <div class="coffee-card">
+            <img src="Macchiato.jpg" alt="Coffee 6" class="coffee-image">
+            <h3 class="coffee-name">Macchiato</h3>
+            <p class="coffee-price">&#8377;170</p>
+        </div>
+    </div>
+
+	</section>
+
+	<section id="add-on-section">
+	<h1>Add-on<br><br></h1>
+	<div class="addon-container" id="addonContainer">
+        <!-- Pastry Card -->
+        <div class="addon-card">
+            <img src="pastry.jpg" alt="Pastry" class="addon-image">
+            <div class="addon-details">
+                <h2>Pastry</h2>
+                <p class="addon-price">&#8377;50</p>
+                
+            </div>
+        </div>
+
+        <!-- Cookie Card -->
+        <div class="addon-card">
+            <img src="cookie.jpg" alt="Cookie" class="addon-image">
+            <div class="addon-details">
+                <h2>Cookie</h2>
+                <p class="addon-price">&#8377;30</p>
+                
+            </div>
+        </div>
+
+        <!-- Sprinkles Card -->
+        <div class="addon-card">
+            <img src="sprinkle.jpg" alt="Sprinkles" class="addon-image">
+            <div class="addon-details">
+                <h2>Sprinkles</h2>
+                <p class="addon-price">&#8377;70</p>
+                
+            </div>
+        </div>
+    </div>
+	</section>
+
+	<section>
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pick-Up Order</title>
+</head>
+<body>
+	<section id="pickup-section">
+	<h1>Pick-Up Order</h1>
+   <div class="pickup-card-container" id="pickupCardContainer">
+        <img src="day brand.jpg" alt="Sprinkles" class="add-image">
+        <div class="pickup-container" id="pickupContainer">
+            <h1>Pick-Up Order</h1>
+            <form id="pickupForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="pickup-time">Pick-Up Time:</label>
+                    <input type="time" id="pickup-time" name="pickup-time" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="menu">Menu:</label>
+                    <select id="menu" name="menu" required>
+                        <option value="cappuccino">Cappuccino</option>
+                        <option value="latte">Latte</option>
+                        <option value="espresso">Espresso</option>
+			<option value="Americano">Americano</option>
+                        <option value="Mocha">Mocha</option>
+                        <option value="Macchiato">Macchiato</option>
+                        <!-- Add more menu items as needed -->
+                    </select>
+                </div>
+
+                <div class="form-group form-group-checkbox">
+                    <label>Add-Ons:</label>
+                    <label for="addOnPastry"><input type="checkbox" id="addOnPastry" name="addOnPastry"> Pastry</label>
+                    <label for="addOnCookie"><input type="checkbox" id="addOnCookie" name="addOnCookie"> Cookie</label>
+                    <label for="addOnSprinkles"><input type="checkbox" id="addOnSprinkles" name="addOnSprinkles"> Sprinkles</label>
+                    <!-- Add more add-ons as needed -->
+                </div>
+
+                <button type="button" id="button2" onclick="submitOrder()">Submit Order</button>
+            </form>
+        </div>
+    </div>
+
+	</section>
+
+	<section>
+	<div class="social-media-container">
+        <div class="social-media-row">
+            <a href="#" class="social-media-link">
+                <img src="facebook.jpg" alt="Facebook">
+            </a>
+            <a href="#" class="social-media-link">
+                <img src="instagram.jpg" alt="Instagram">
+            </a>
+        </div>
+
+        <div class="social-media-row">
+            <a href="#" class="social-media-link">
+                <img src="whatsapp.jpg" alt="WhatsApp">
+            </a>
+            <a href="#" class="social-media-link">
+                <img src="linkedin.jpg" alt="LinkedIn">
+            </a>
+        </div>
+    </div>
+	</section>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+	</section>
+    <!--JavaScript-->
+    <script>
+      const header = document.querySelector("header");
+      const hamburgerBtn = document.querySelector("#hamburger-btn");
+      const closeMenuBtn = document.querySelector("#close-menu-btn");
+
+      // Toggle mobile menu on hamburger button click
+      hamburgerBtn.addEventListener("click", () => header.classList.toggle("show-mobile-menu"));
+
+      // Close mobile menu on close button click
+      closeMenuBtn.addEventListener("click", () => hamburgerBtn.click());
+    </script>
+    
+  </body>
+</html>
